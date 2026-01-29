@@ -49,5 +49,6 @@ public class StepTest {
         steps.clickOnRepositoryLink(REPOSITORY);
         steps.openIssuesTab();
         steps.shouldSeeIssueWithNumber(ISSUE);
+
     }
 }
