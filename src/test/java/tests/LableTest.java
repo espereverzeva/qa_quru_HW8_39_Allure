@@ -23,7 +23,7 @@ public class LableTest {
         );
         Allure.feature("Issue в репозитории");
         Allure.story("Создание Issue");
-        Allure.label("owner", "eroshenkoam");
+        Allure.label("owner", "pereverzevaes");
         Allure.label("severity", SeverityLevel.CRITICAL.value());
         Allure.link("Testing", "https://testing.github.com");
     }
