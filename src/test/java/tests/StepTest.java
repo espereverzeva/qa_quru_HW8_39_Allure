@@ -21,7 +21,7 @@ public class StepTest {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу", () -> {
-             open("https://github.com");
+            open("https://github.com");
         });
         step("Ищем репозиторий " + REPOSITORY, () -> {
             $(".search-input").click();
@@ -34,7 +34,7 @@ public class StepTest {
         step("Открываем таб Issues", () -> {
             $("#issues-tab").click();
         });
-        step("Проверяем наличие Issue с номером " + ISSUE, () ->{
+        step("Проверяем наличие Issue с номером " + ISSUE, () -> {
             $(withText("#" + ISSUE)).should(Condition.exist);
         });
     }
