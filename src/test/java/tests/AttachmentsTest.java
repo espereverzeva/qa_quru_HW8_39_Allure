@@ -32,6 +32,6 @@ public class AttachmentsTest {
         WebSteps steps = new WebSteps();
 
         steps.openMainPage();
-        steps.takeScreenshot();
+        ScreenshotUtils.takeScreenshot();
     }
 }
